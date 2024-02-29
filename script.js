@@ -3,7 +3,7 @@ const startButton = document.getElementById("startButton");
 const endButton = document.getElementById("endButton");
 const scoreDiv = document.getElementById("score");
 const timerDiv = document.getElementById("timer");
-const audio = new Audio("audio.mp3");
+const audio = new Audio("./assets/audio.mp3");
 
 let timer;
 let score = 0;
