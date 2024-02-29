@@ -1,0 +1,67 @@
+body {
+  background-color: rgb(255, 228, 196);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.game-info {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 20px;
+}
+
+#startButton {
+  margin-bottom: 20px;
+  padding: 10px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+#endButton {
+  margin-bottom: 20px;
+  padding: 10px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.game-container {
+  background-color: rgb(70, 200, 102);
+  display: grid;
+  grid-template-columns: repeat(3, 140px);
+  grid-template-rows: repeat(3, 140px);
+  gap: 10px;
+  border: 2px solid rgb(216, 216, 216);
+  padding: 20px;
+  border-radius: 10px;
+  align-items: end;
+}
+
+.hole {
+  height: 90px;
+  background: rgb(107, 35, 35);
+  border: 5px solid rgb(30, 30, 30);
+  cursor: pointer;
+  border-radius: 50%;
+  overflow: hidden;
+}
+
+.mole {
+  width: 100%;
+  height: 100%;
+  background-image: url("/mole.png");
+  background-size: 100px;
+  -o-object-fit: contain;
+     object-fit: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  transition: ease-in-out 0.2s;
+}
+
+.skew {
+  transform: scaley(0.1);
+  transform-origin: 50% 100%;
+}/*# sourceMappingURL=index.css.map */
